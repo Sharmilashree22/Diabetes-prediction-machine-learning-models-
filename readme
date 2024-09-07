@@ -1,0 +1,61 @@
+# Diabetes Prediction using Machine Learning Models
+
+This repository contains a machine learning project aimed at predicting diabetes based on a medical dataset. The dataset includes various medical and health-related variables from 1000 patients in Iraq, sourced from the Medical City Hospital and the Specialized Center for Endocrinology and Diabetes at Al-Kindy Teaching Hospital.
+
+## Dataset Information
+
+The dataset contains both continuous and categorical variables, including:
+- **Age**: Age of the patient (Continuous)
+- **Urea**: Urea levels in the blood (Continuous)
+- **Creatinine (Cr)**: Serum creatinine concentration (Continuous)
+- **HbA1c**: Hemoglobin A1c levels reflecting long-term blood glucose (Continuous)
+- **Cholesterol (Chol)**: Total cholesterol levels (Continuous)
+- **Triglycerides (TG)**: Blood triglycerides concentration (Continuous)
+- **High-Density Lipoprotein (HDL)**: "Good" cholesterol levels (Continuous)
+- **Low-Density Lipoprotein (LDL)**: "Bad" cholesterol levels (Continuous)
+- **Body Mass Index (BMI)**: Body mass index (Continuous)
+- **Gender**: Gender of the patient (Categorical)
+- **Diabetes Status**: The target variable indicating if the patient is Non-Diabetic, Prediabetic, or Diabetic (Categorical)
+
+## Features
+- Data preprocessing and visualization
+- Various machine learning models for classification:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Support Vector Machine (SVM)
+  - XGBoost
+  - Gradient Boosting Classifier
+  - AdaBoost Classifier
+
+## Project Structure
+- **diabetes.ipynb**: The main Jupyter Notebook containing the analysis and model development.
+- **requirements.txt**: List of dependencies for running the notebook.
+
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Sharmilashree22/Diabetes-prediction-machine-learning-models-.git
+    ```
+2. Install the required Python libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Open the Jupyter Notebook `diabetes.ipynb`.
+2. Run the cells to explore data, train models, and evaluate their performance.
+3. Use the trained models to predict diabetes status on new data.
+
+## Results
+
+The machine learning models are trained to predict whether a patient is:
+- **Non-Diabetic**
+- **Prediabetic**
+- **Diabetic**
+
+The performance of each model is evaluated using metrics like accuracy, precision, recall, and F1-score.
+
